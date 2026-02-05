@@ -1,0 +1,1 @@
+# Program 59: Data_Logger\n\nIndustrial pattern implementation.\n

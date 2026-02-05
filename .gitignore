@@ -1,0 +1,388 @@
+# ====================================================================
+# Praktikum Sistem Embedded - Git Ignore Configuration
+# STM32 & ESP32 PlatformIO Projects
+# ====================================================================
+
+# ====================================================================
+# PlatformIO
+# ====================================================================
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+.vscode/
+.history/
+
+# Build directories
+**/build/
+**/Build/
+**/BUILD/
+**/.pio/
+**/.pioenvs/
+**/.piolibdeps/
+
+# ====================================================================
+# Compiled Object Files & Libraries
+# ====================================================================
+*.o
+*.a
+*.so
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.lss
+*.sym
+*.d
+
+# ====================================================================
+# Debugging Files
+# ====================================================================
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# ====================================================================
+# Linker Output
+# ====================================================================
+*.ilk
+*.exp
+
+# ====================================================================
+# Precompiled Headers
+# ====================================================================
+*.gch
+*.pch
+
+# ====================================================================
+# Libraries
+# ====================================================================
+*.lib
+*.la
+*.lo
+
+# ====================================================================
+# Shared Objects
+# ====================================================================
+*.dll
+*.so.*
+*.dylib
+
+# ====================================================================
+# Executables
+# ====================================================================
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+
+# ====================================================================
+# Kernel Module Compile Results
+# ====================================================================
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# ====================================================================
+# Python
+# ====================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
+*.sage.py
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ====================================================================
+# IDEs and Editors
+# ====================================================================
+
+## Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+## JetBrains IDEs (CLion, PyCharm, IntelliJ IDEA)
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+cmake-build-*/
+.idea_modules/
+*.swp
+*.swo
+*~
+
+## Eclipse
+.settings/
+.cproject
+.project
+*.launch
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+local.properties
+.loadpath
+.recommenders
+.externalToolBuilders/
+*.pydevproject
+.buildpath
+.target
+.tern-project
+.texlipse
+.springBeans
+.recommenders/
+.apt_generated/
+.factorypath
+.buildpath
+.target
+.tern-project
+.texlipse
+.springBeans
+.recommenders/
+
+## Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+## Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+tags
+[._]*.un~
+
+## Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ====================================================================
+# Operating System Files
+# ====================================================================
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+## Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+## Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ====================================================================
+# STM32 Specific
+# ====================================================================
+*.axf
+*.crf
+*.d
+*.dep
+*.uvgui.*
+*.uvguix.*
+*.uvopt
+*.uvproj
+*.bak
+RTE/
+Listings/
+Objects/
+DebugConfig/
+*.sct
+*.scvd
+
+# ====================================================================
+# ESP32 Specific
+# ====================================================================
+sdkconfig.old
+*.json.bak
+components/
+
+# ====================================================================
+# Documentation & Temporary Files
+# ====================================================================
+*.pdf
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.xlsx
+*.xls
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+*.md~
+*.tmp
+
+# Keep specific documentation
+!README.md
+!LAPORAN_KOMPILASI.md
+!LICENSE.md
+!CHANGELOG.md
+!CONTRIBUTING.md
+
+# ====================================================================
+# Log Files
+# ====================================================================
+*.log
+logs/
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ====================================================================
+# Test Coverage
+# ====================================================================
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+cover/
+
+# ====================================================================
+# Backup Files
+# ====================================================================
+*~
+*.bak
+*.backup
+*.old
+*.orig
+*.swp
+*.swo
+
+# ====================================================================
+# Temporary & Cache Files
+# ====================================================================
+*.tmp
+*.temp
+.cache/
+cache/
+*.stackdump
+
+# ====================================================================
+# Project Specific
+# ====================================================================
+
+## Ignore reference materials folder (if contains large PDFs)
+# REFERENSI/
+
+## Ignore old project structures
+F103C8T6/
+Praktikum Sistem Embedded/
+
+## Ignore compiled reports unless specifically needed
+# *.md
+
+# ====================================================================
+# Keep These Files (Override Previous Rules)
+# ====================================================================
+!**/platformio.ini
+!**/src/**
+!**/include/**
+!**/lib/**
+!**/test/**
+!README.md
+!LICENSE
+!.gitignore
