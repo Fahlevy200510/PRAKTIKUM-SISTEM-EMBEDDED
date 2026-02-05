@@ -294,32 +294,6 @@ sdkconfig.old
 components/
 
 # ====================================================================
-# Documentation & Temporary Files
-# ====================================================================
-*.pdf
-*.docx
-*.doc
-*.pptx
-*.ppt
-*.xlsx
-*.xls
-*.zip
-*.rar
-*.7z
-*.tar
-*.gz
-*.bz2
-*.md~
-*.tmp
-
-# Keep specific documentation
-!README.md
-!LAPORAN_KOMPILASI.md
-!LICENSE.md
-!CHANGELOG.md
-!CONTRIBUTING.md
-
-# ====================================================================
 # Log Files
 # ====================================================================
 *.log
